@@ -18,6 +18,11 @@
 	}
 	div.blank_before {
 		margin-top: 50px;
+		
+	}
+	div.policy {
+		margin: auto;
+		width: 75%;
 	}
 .image.fit img {
 	width: 100%;
@@ -1176,7 +1181,7 @@
 .copyright a {
 	color:white;
 	border-bottom: none;
-	font-weight: 700;
+	font-weight: 300;
 	text-decoration: none;
 }
 	@media screen and (max-width: 736px) {
