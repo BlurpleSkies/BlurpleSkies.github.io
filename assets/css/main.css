@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
+/* @import url(all.css); */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400&display=swap");
 /*
 	Full Motion by TEMPLATED
@@ -15,6 +15,9 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+	}
+	div.blank_before {
+		margin-top: 50px;
 	}
 .image.fit img {
 	width: 100%;
@@ -221,7 +224,7 @@
 	header p {
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1.0em 0;
 	}
 	header h2 + p {
 		font-size: 1.25em;
@@ -318,8 +321,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ff8686;
-			box-shadow: 0 0 0 1px #ff8686;
+			border-color: #4A2A43;
+			box-shadow: 0 0 0 1px #4A2A43;
 		}
 	.select-wrapper {
 		text-decoration: none;
@@ -446,6 +449,13 @@
 		color: rgba(255, 255, 255, 0.5) !important;
 		opacity: 1.0;
 	}
+.form-group {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	margin-bottom: 15px;
+	gap: 10px;
+}
 
 /* Box */
 	.box {
