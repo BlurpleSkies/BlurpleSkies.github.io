@@ -1,2 +1,4 @@
+Sitemap: https://www.chancelloralford.com/sitemap.xml
+
 User-agent: *
 Allow: /
